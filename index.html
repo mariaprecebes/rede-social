@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">   
+        <style>
+body{
+  background-color: white;
+
+}  
+.p1{font-family: 'Noto Sans TC', sans-serif;}
+.div3 {
+  
+  width: 1300px;
+  height: 500px;
+  border: 15px solid white;
+  
+  margin: 20px;
+}        
+.div1{
+           float:right;
+          padding:10%;
+        }  
+.div2{
+          padding-top:1px;
+          padding-left:100px; 
+          
+}       
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #800B0B;
+  color: white;
+}
+</style>
+</head>
+<body>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./css/main.css">
+        <script>
+            function PageOne(){
+                window.location.href ="./Tela_Login.php";
+            }
+            function PageTwo(){
+                window.location.href ="./Principal_Page(cli).php";
+            }    
+        </script>
+    </head>
+    <body>
+      <ul>
+  <li><a href="#news">Contato</a></li>
+  <li><a href="#contact">Sobre</a></li>
+  <li><a href="http://localhost/rede%20social/rede%20social/">Home</a></li>
+    </ul>
+            <div class="div3">
+            <div>  
+            <div class="div1">
+            <div>
+                <center><h1 class="p1">Bem-Vindo</h1></center>
+            
+                <center><p class="p1">Para Continuar, Clique em um dos botões abaixo</p><center>
+            </div>
+            <div>
+                <center>
+                    <input type="button" id="button" value="Sou Vendedor" onclick="PageOne();">
+                    <input type="button" id="button" value="Sou Comprador" onclick="PageTwo();">
+                </center>
+          </div>
+          </div>  
+          <div class="div2">
+              <img src="imagens/montagem.png" width="550" height="500">
+          </div>
+          </div>
+          </div>
+    </body>
+</html>

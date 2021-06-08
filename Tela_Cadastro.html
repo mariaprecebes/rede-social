@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="./css/Tela_Cadastro.css">
+    </head>
+    <style>
+        
+    </style>
+    <body>
+        <ul>
+  <li><a href="#news">Contato</a></li>
+  <li><a href="#contact">Sobre</a></li>
+  <li><a href="http://localhost/rede%20social/rede%20social/">Home</a></li>
+    </ul>
+        <div>
+            <div>
+               <center><h3 class="p1">Faça seu cadastro para que outras pessoas possam conhecer seu trabalho!</h3></center>
+            </div>
+            <div class="div1">
+                <form action="./Processa_Cadastro.php" method="post" enctype="multipart/form-data">
+                    <div>
+                    <label class="p1" for="email">Nome:</label>
+                    </div>
+                    <input type="text" name="nome" placeholder="Digite seu nome e sobrenome aqui"><br><br>
+                    <div>
+                    <label class="p1" for="email">Número:</label>
+                    </div>
+                    <input type="number" name="numero" placeholder="Ex: 88997988736"><br><br>
+                    <div>
+                    <label class="p1" for="email">Instagram:</label>
+                    </div>
+                    <input type="text" name="instagram" placeholder="Coloque seu instagram sem o @"><br><br>
+                    <label for="upload-photo" style="cursor: pointer;"><img src="./icons/Icon_Cadastro.png" style="width:200px; ">
+                    <input type="file" name="perfil" id="upload-photo" style="visibility: hidden;"></label><br><br>
+                    <div>
+                    <label class="p1" for="email">Email:</label>
+                    </div>
+                    <input type="email" name="email" placeholder="Digite um email aqui"><br><br>
+                    <div>
+                    <label class="p1" for="email">Senha:</label>
+                    </div>
+                    <input type="password" name="senha1" placeholder="Digite sua senha"><br><br> 
+                    <input type="password" name="senha2" placeholder="Confirme sua senha"><br><br>
+                    <input type="submit" id="button" value="Cadastrar">
+                </form>
+            </div>
+            </div>
+        <div class="div2">
+              <img src="imagens/montagem.png" width="550" height="500">
+          </div>
+    </body>
+</html>

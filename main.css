@@ -1,0 +1,18 @@
+#button{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 11px 30px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid #800B0B;
+    border-radius: 25px;
+}
+
+#button:hover {
+    background-color:  #800B0B;
+    color: white;
+    transition-duration: 0,5s;
+}
